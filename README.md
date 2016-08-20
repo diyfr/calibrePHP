@@ -21,7 +21,7 @@ CalibrePHP has the following Requirements:
   * Configure the email setting want to be sent, or set as an empty array() to disable.
 * Copy `app/Config/database.php.default` to `app/Config/database.php`
   * Configure the full path of calibre database ($test & $default).
-* Update `app/Config/core.php` to modify the following if desired.
+* Copy `app/Config/core.php.default` to `app/Config/core.php`
   * Change `Security.salt` from the default.
   * Change `Security.cipherSeed` from the default.
   * Change `debug` to the desired level.
