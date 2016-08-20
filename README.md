@@ -25,18 +25,14 @@ CalibrePHP has the following Requirements:
   * Change `Security.salt` from the default.
   * Change `Security.cipherSeed` from the default.
   * Change `debug` to the desired level.
-
-## History
-* Added reading epub and pdf in browser
-* Added user management
+* User management
   * Enable authentication by changing the auth option in configuration section
   * Default account `username:password` setups:
     * `admin:password`
     * `user:password`
     * `children:password`
-* Added support for multiple languages
-* Added Russian language
-* Added configuration section
+## History
+* Updated for CackePHP 2.9 (String to CakeText)  and Sqlite 3  
 * Added French language
 
 ## Reporting issues
