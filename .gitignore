@@ -38,8 +38,8 @@
 !/app/tmp/cache/views/empty
 
 /app/tmp/sessions/*
-!/app/tmp/cache/sessions/
-!/app/tmp/cache/sessions/empty
+!/app/tmp/sessions/
+!/app/tmp/sessions/empty
 
 /app/tmp/tests/*
 !/app/tmp/cache/tests/
