@@ -9,8 +9,8 @@ This is a simple [HTML](http://en.wikipedia.org/wiki/HTML) and [OPDS](http://en.
 CalibrePHP has the following Requirements:
 * HTTP Server. e.g. Apache with mod_rewrite
 * PHP 7.0 or greater
-* PHP Sqlite 3 support
-* GD Image library
+* PHP Sqlite 3 support ```apt-get install libsqlite3-0 libsqlite3-dev ```
+* GD Image library ``` apt-get install libapache2-mod-php7.0 ```
 * Calibre library and sub-directories need to be readable and executable by the webserver.
 
 ### Installation
