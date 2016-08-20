@@ -6,7 +6,7 @@
 			echo $this->Html->charset();
 			echo $this->Html->meta('description', 'Calibre Web Server');
 			echo $this->Html->meta(array('name' => 'viewport', 'content' => 'width=device-width, initial-scale=1.0'));
-			echo $this->Html->meta(array('name' => 'author', 'content' => 'Michael Tuttle'));
+			echo $this->Html->meta(array('name' => 'author', 'content' => 'Michael Tuttle, diyfr'));
 			echo $this->Html->meta('favicon.ico', '/favicon.ico', array('type' => 'icon'));
 			echo $this->fetch('meta');
 

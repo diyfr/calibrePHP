@@ -31,9 +31,9 @@ class OpdsHelper extends AppHelper {
 				'id'      => array(),
 				'updated' => array(),
 				'author'  => array(
-					'name'  => array('Michael Tuttle'),
-					'uri'   => array('github.com/openam'),
-					'email' => array('openam@gmail.com'),
+					'name'  => array('diyfr'),
+					'uri'   => array('github.com/diyfr'),
+					'email' => array('90'),
 				),
 
 				'link'  => array(),
