@@ -1,0 +1,507 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright 2015 cc2i <info@cc2i.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CalibrePHP\n"
+"POT-Creation-Date: 2015-12-22 12:00+0000\n"
+"PO-Revision-Date: 2016-08-10 19:14+0200\n"
+"Last-Translator: cc2i <info@cc2i.org>\n"
+"Language-Team: https://github.com/cc2i/calibrephp <info@cc2i.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: __\n"
+
+#: Controller/AppController.php:76
+msgid "You must be logged in to view this page."
+msgstr "Vous devez être authentifié pour accéder à cette page"
+
+#: Controller/AuthorsController.php:37
+msgid "Invalid author"
+msgstr "Auteur invalide"
+
+#: Controller/BooksController.php:36;52;102;164
+msgid "Invalid book"
+msgstr "Livre invalide"
+
+#: Controller/BooksController.php:55;105;167
+msgid "Invalid extension"
+msgstr "Extension invalide"
+
+#: Controller/BooksController.php:73;123;185
+msgid "Invalid file name or extension"
+msgstr "Nom du fichier ou extension invalides"
+
+#: Controller/BooksController.php:218
+msgid "BooksController::newest not yet implemented"
+msgstr "BooksController Fonction newest non implémentée"
+
+#: Controller/BooksController.php:227
+msgid "BooksController::random not yet implemented"
+msgstr "BooksController Fonction aléatoire non implémentée"
+
+#: Controller/DataController.php:34
+msgid "Invalid datum"
+msgstr "Date invalide"
+
+#: Controller/PublishersController.php:37
+msgid "Invalid publisher"
+msgstr "Editeur invalide"
+
+#: Controller/RatingsController.php:31
+msgid "Invalid rating"
+msgstr "Notation invalide"
+
+#: Controller/SeriesController.php:37
+msgid "Invalid series"
+msgstr "Série invalide"
+
+#: Controller/SettingsController.php:43
+msgid "Invalid setting"
+msgstr "Paramètres invalides"
+
+#: Controller/SettingsController.php:48
+msgid "The settings has been saved"
+msgstr "Les paramètres ont été sauvegardés"
+
+#: Controller/SettingsController.php:51
+msgid "The setting could not be saved, try again"
+msgstr "Les paramètres n'ont pas été sauvegardés"
+
+#: Controller/TagsController.php:37
+msgid "Invalid tag"
+msgstr "Tag invalide"
+
+#: Controller/UsersController.php:45
+msgid "Invalid username or password, try again"
+msgstr "Utilisateur ou mot de passe non valide"
+
+#: Controller/UsersController.php:81 View/Users/login.ctp:9
+msgid "Sign In"
+msgstr "Se connecter"
+
+#: Controller/UsersController.php:116;160
+msgid "The user has been saved"
+msgstr "Profil sauvegardé"
+
+#: Controller/UsersController.php:119;163
+msgid "The user could not be saved, try again"
+msgstr "Profil non sauvegardé"
+
+#: Controller/UsersController.php:136;155
+msgid "Invalid user"
+msgstr "Utilisateur invalide"
+
+#: Controller/UsersController.php:139
+msgid "User deleted"
+msgstr "Utilisateur supprimé"
+
+#: Controller/UsersController.php:139
+msgid "User was not deleted"
+msgstr "Utilisateur non supprimé"
+
+#: Model/Setting.php:33
+msgid "Change the key settings are not supported"
+msgstr "Modification de clé non supporté"
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:18
+msgid "Debug setting does not allow access to this url."
+msgstr "Le paramètre de debug ne permet pas d'accéder à cette URL"
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:27
+msgid "Alert notice message testing..."
+msgstr "Alerte Avis message test..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:30;41
+msgid "Alert success message testing..."
+msgstr "un message test de réussite alerte ..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:34
+msgid "Alert error message testing..."
+msgstr "un message d'erreur test d'alerte ..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:45
+msgid "Alert info message testing..."
+msgstr "Alerte info message test..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:49
+msgid "Alert warning message testing..."
+msgstr "un message d'avertissement test d'alerte ..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:53
+msgid "Alert danger message testing..."
+msgstr "un message test de danger Alerte ..."
+
+#: Vendor/BookReader/Reader.php:76
+msgid "Unsupported format book"
+msgstr "Format du livre non supporté"
+
+#: View/Authors/index.ctp:2 View/Authors/search.ctp:2
+#: View/Elements/Layout/header.ctp:46
+msgid "Authors"
+msgstr "Auteurs"
+
+#: View/Authors/index.ctp:5 View/Authors/search.ctp:6 View/Books/index.ctp:5
+#: View/Books/search.ctp:6 View/Publishers/index.ctp:5
+#: View/Publishers/search.ctp:6 View/Ratings/index.ctp:5
+#: View/Series/index.ctp:5 View/Series/search.ctp:6 View/Tags/index.ctp:5
+#: View/Tags/search.ctp:6
+msgid "Sort By"
+msgstr "Tri par"
+
+#: View/Authors/index.ctp:7 View/Authors/search.ctp:8
+#: View/Publishers/index.ctp:7 View/Publishers/search.ctp:8
+#: View/Series/index.ctp:7 View/Series/search.ctp:8 View/Settings/index.ctp:9
+#: View/Tags/index.ctp:7 View/Tags/search.ctp:8
+msgid "Name"
+msgstr "Prénom"
+
+#: View/Authors/index.ctp:8 View/Authors/search.ctp:9
+msgid "Last Name"
+msgstr "Nom"
+
+#: View/Authors/view.ctp:6
+msgid "Related Series"
+msgstr "Séries associées"
+
+#: View/Authors/view.ctp:17 View/Data/view.ctp:5 View/Publishers/view.ctp:5
+#: View/Ratings/view.ctp:9 View/Series/view.ctp:5 View/Tags/view.ctp:5
+msgid "Related Books"
+msgstr "Livres associés"
+
+#: View/Authors/xml/index.ctp:3
+msgid "Calibre Authors"
+msgstr "Auteurs Calibre"
+
+#: View/Authors/xml/index.ctp:11 View/Authors/xml/view.ctp:12
+#: View/Books/xml/opds.ctp:11 View/Publishers/xml/index.ctp:11
+#: View/Publishers/xml/view.ctp:12 View/Ratings/xml/index.ctp:11
+#: View/Ratings/xml/view.ctp:12 View/Series/xml/index.ctp:11
+#: View/Series/xml/view.ctp:12 View/Tags/xml/index.ctp:11
+#: View/Tags/xml/view.ctp:12
+msgid "Home"
+msgstr "Accueil"
+
+#: View/Authors/xml/index.ctp:25 View/Publishers/xml/index.ctp:25
+#: View/Ratings/xml/index.ctp:25 View/Series/xml/index.ctp:25
+#: View/Tags/xml/index.ctp:25
+msgid "%s books sorted by title"
+msgstr "%s livres triés par titre"
+
+#: View/Authors/xml/view.ctp:34 View/Publishers/xml/view.ctp:34
+#: View/Ratings/xml/view.ctp:34 View/Series/xml/view.ctp:26
+#: View/Tags/xml/view.ctp:34
+msgid "Book %d in the %d series"
+msgstr "Livre %d dans la série %d"
+
+#: View/Books/index.ctp:2 View/Books/search.ctp:2
+#: View/Elements/Layout/header.ctp:16;47
+msgid "Books"
+msgstr "Livres"
+
+#: View/Books/index.ctp:7 View/Books/search.ctp:8
+msgid "Date Added"
+msgstr "Ajouté le"
+
+#: View/Books/index.ctp:8 View/Books/search.ctp:9 View/Books/view.ctp:14
+#: View/Elements/bookInfo.ctp:19
+msgid "Author"
+msgstr "Auteur"
+
+#: View/Books/index.ctp:9 View/Books/search.ctp:10
+msgid "Title"
+msgstr "Titre"
+
+#: View/Books/index.ctp:10 View/Books/search.ctp:11
+msgid "Series Index"
+msgstr "Indice (Série)"
+
+#: View/Books/view.ctp:15 View/Elements/bookInfo.ctp:23
+#: View/Elements/Layout/header.ctp:50 View/Series/index.ctp:2
+#: View/Series/search.ctp:2
+msgid "Series"
+msgstr "Séries"
+
+#: View/Books/view.ctp:16 View/Elements/bookInfo.ctp:27
+msgid "Year"
+msgstr "Année"
+
+#: View/Books/view.ctp:17 View/Elements/bookInfo.ctp:31
+#: View/Ratings/index.ctp:7 View/Ratings/view.ctp:2
+msgid "Rating"
+msgstr "Note"
+
+#: View/Books/view.ctp:19 View/Elements/bookInfo.ctp:35
+msgid "Publisher"
+msgstr "Editeur"
+
+#: View/Books/view.ctp:20 View/Elements/bookInfo.ctp:39
+#: View/Elements/Layout/header.ctp:51 View/Tags/index.ctp:2
+#: View/Tags/search.ctp:2
+msgid "Tags"
+msgstr "Tags"
+
+#: View/Books/view.ctp:22 View/Elements/bookInfo.ctp:44
+msgid "Format"
+msgstr "Format"
+
+#: View/Books/view.ctp:33
+msgid "Summary Information"
+msgstr "Information sommaire"
+
+#: View/Books/xml/opds.ctp:3
+msgid "Calibre Home"
+msgstr "Accueil Calibre"
+
+#: View/Books/xml/opds.ctp:21
+msgid "By Author"
+msgstr "Par Auteur"
+
+#: View/Books/xml/opds.ctp:24
+msgid "books sorted by %s authors"
+msgstr "livres triés par %s auteurs"
+
+#: View/Books/xml/opds.ctp:29
+msgid "By Publisher"
+msgstr "Par éditeur"
+
+#: View/Books/xml/opds.ctp:32
+msgid "books grouped by %s publishers"
+msgstr "livres groupés par %s éditeurs"
+
+#: View/Books/xml/opds.ctp:37
+msgid "By Rating"
+msgstr "Par Note"
+
+#: View/Books/xml/opds.ctp:40
+msgid "books grouped by %s ratings"
+msgstr "livres groupés par note %s"
+
+#: View/Books/xml/opds.ctp:45
+msgid "By series"
+msgstr "Par série"
+
+#: View/Books/xml/opds.ctp:48
+msgid "books group by %s series"
+msgstr "livres groupés par %s séries"
+
+#: View/Books/xml/opds.ctp:53
+msgid "By tags"
+msgstr "Par tags"
+
+#: View/Books/xml/opds.ctp:56
+msgid "books group by %s tags"
+msgstr "livres groupés par %s tags"
+
+#: View/Data/index.ctp:2
+msgid "Formats"
+msgstr "Formats"
+
+#: View/Elements/search.ctp:11 View/Elements/Layout/header.ctp:33
+#: View/Helper/TxtHelper.php:267
+msgid "Search"
+msgstr "Recherche"
+
+#: View/Elements/settingTabs.ctp:5
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: View/Elements/settingTabs.ctp:7
+msgid "General"
+msgstr "Général"
+
+#: View/Elements/Layout/header.ctp:6
+msgid "Toggle navigation"
+msgstr "Changer de Navigation"
+
+#: View/Elements/Layout/header.ctp:42
+msgid "Feed"
+msgstr "Feed"
+
+#: View/Elements/Layout/header.ctp:44
+msgid "Indexes"
+msgstr "Index"
+
+#: View/Elements/Layout/header.ctp:48 View/Publishers/index.ctp:2
+#: View/Publishers/search.ctp:2
+msgid "Publishers"
+msgstr "Editeurs"
+
+#: View/Elements/Layout/header.ctp:49 View/Ratings/index.ctp:2
+msgid "Ratings"
+msgstr "Notes"
+
+#: View/Elements/Layout/header.ctp:58
+msgid "Settings"
+msgstr "Paramètres"
+
+#: View/Elements/Layout/header.ctp:59
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: View/Elements/Paginator/footer.ctp:5
+msgid "Results %s - %s of %s | Page %s of %s"
+msgstr "Resultats %s - %s sur %s | Page %s sur %s"
+
+#: View/Helper/ImageHelper.php:80;107
+msgid "Invalid path"
+msgstr "Chemin invalide"
+
+#: View/Helper/ImageHelper.php:138 View/Helper/OpdsHelper.php:155
+msgid "Download"
+msgstr "Téléchargement"
+
+#: View/Helper/ImageHelper.php:160
+msgid "Read"
+msgstr "Lire"
+
+#: View/Helper/ImageHelper.php:193
+msgid "Share"
+msgstr "Partager"
+
+#: View/Helper/ImageHelper.php:240;243
+msgid "No Cover"
+msgstr "Pas de couverture"
+
+#: View/Helper/TxtHelper.php:169
+msgid "%d Stars"
+msgstr "%d étoiles"
+
+#: View/Publishers/xml/index.ctp:3
+msgid "Calibre Publishers"
+msgstr "Editeurs Calibre"
+
+#: View/Ratings/view.ctp:6
+msgid ""
+"These books have been listed as %s. They probably just have not been given a "
+"rating."
+msgstr ""
+"Ces livres ont été triés pas %s. Ils n'ont problablement pas eu de note."
+
+#: View/Ratings/xml/index.ctp:3
+msgid "Calibre Ratings"
+msgstr "Note Calibre"
+
+#: View/Series/xml/index.ctp:3
+msgid "Calibre Series"
+msgstr "Série Calibre"
+
+#: View/Settings/edit.ctp:16 View/Users/add.ctp:14 View/Users/edit.ctp:14
+msgid "English"
+msgstr "Anglais"
+
+#: View/Settings/edit.ctp:16 View/Users/add.ctp:14 View/Users/edit.ctp:14
+msgid "Russian"
+msgstr "Russe"
+
+#: View/Settings/edit.ctp:16 View/Users/add.ctp:14 View/Users/edit.ctp:14
+msgid "French"
+msgstr "Français"
+
+#: View/Settings/edit.ctp:19 View/Settings/index.ctp:18 View/Users/index.ctp:9
+msgid "Language"
+msgstr "Langage"
+
+#: View/Settings/edit.ctp:27 View/Settings/index.ctp:21
+msgid "Alternate book path"
+msgstr "Chemin des livres supplémentaires"
+
+#: View/Settings/edit.ctp:29
+msgid "Database calibre not found or not readable"
+msgstr "La base de données Calibre n'existe pas ou n'est pas lisible"
+
+#: View/Settings/edit.ctp:34 View/Settings/index.ctp:31
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: View/Settings/edit.ctp:34 View/Settings/index.ctp:34
+msgid "Enabled"
+msgstr "Activé"
+
+#: View/Settings/edit.ctp:37 View/Settings/index.ctp:24
+msgid "Authorization"
+msgstr "Autorisation"
+
+#: View/Settings/edit.ctp:42
+msgid "Edit Setting"
+msgstr "Editer les paramètres"
+
+#: View/Settings/edit.ctp:43 View/Users/edit.ctp:16
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: View/Settings/index.ctp:9
+msgid "Value"
+msgstr "Valeur"
+
+#: View/Tags/xml/index.ctp:3
+msgid "Calibre Tags"
+msgstr "Tags Calibre"
+
+#: View/Users/add.ctp:12 View/Users/edit.ctp:12
+msgid "User"
+msgstr "Utilisateur"
+
+#: View/Users/add.ctp:12 View/Users/edit.ctp:12
+msgid "Admin"
+msgstr "Administrateur"
+
+#: View/Users/add.ctp:13 View/Users/edit.ctp:13 View/Users/index.ctp:9
+msgid "Deny Tags"
+msgstr "Tags refusés"
+
+#: View/Users/add.ctp:15
+msgid "New User"
+msgstr "Nouvel utilisateur"
+
+#: View/Users/add.ctp:16
+msgid "Add"
+msgstr "Ajouter"
+
+#: View/Users/edit.ctp:15
+msgid "Edit User"
+msgstr "Modifier l'utilisateur"
+
+#: View/Users/index.ctp:9
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: View/Users/index.ctp:9
+msgid "Role"
+msgstr "Rôle"
+
+#: View/Users/index.ctp:35
+msgid "Add user"
+msgstr "Ajouter un utilisateur"
+
+#: View/Users/login.ctp:5
+msgid "Please enter your username and password"
+msgstr "Entrez en nom d'utilisateur et un mot de passe"
+
+#: View/Users/login.ctp:7
+msgid "Password"
+msgstr "Mot de passe"
+
+#: Model/Setting.php:validation for field value
+msgid "checkSettingValue"
+msgstr "Validation paramétrage"
+
+#: Model/User.php:validation for field username
+msgid "A username is required"
+msgstr "Un nom d'utilisateur est requis"
+
+#: Model/User.php:validation for field password
+msgid "A password is required"
+msgstr "Un mot de passe est requis"
+
+#: Model/User.php:validation for field role
+msgid "Please enter a valid role"
+msgstr "Entrez un rôle valide"
+
+#: Model/User.php:validation for field language
+msgid "Please enter a valid language"
+msgstr "Entrez un langage valide"
